@@ -1,0 +1,43 @@
+version: '3.1'
+
+services:
+    drupal:
+        image: drupal:9.1.10-apache
+        container_name: drupal
+        hostname: drupal
+        ports:
+        - 8080:80
+        volumes:
+        - /var/www/html/modules
+        - /var/www/html/profiles
+        - /var/www/html/themes
+        # this takes advantage of the feature in Docker that a new anonymous
+        # volume (which is what we're creating here) will be initialized with the
+        # existing content of the image at the same location
+        - /var/www/html/sites
+      #  restart: always
+
+    postgres:
+        image: postgres:13
+        container_name: postgres-02
+        hostname: postgres-02
+        ports:
+          - "5432:5432"
+        command:
+          - "postgres"
+          - "-c"
+          - "wal_level=logical"
+        environment:
+          POSTGRES_PASSWORD: SuperSecret
+          POSTGRES_USER: admin
+      
+    pgadmin:
+        image: dpage/pgadmin4:latest
+        container_name: pgadmin-02
+        hostname: pgadmin-02
+        ports:
+          - "8081:80"
+        environment:
+          - PGADMIN_DEFAULT_EMAIL=admin@semwen.org
+          - PGADMIN_DEFAULT_PASSWORD=01Jan1804
+        tty: true

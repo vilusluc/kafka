@@ -1,0 +1,60 @@
+[
+    {
+        "id": 8978,
+        "date": "2021-09-26",
+        "facturationAddress": {
+            "civicNumber": 2123,
+            "street": "Yves-Prevost",
+            "province": "Quebec",
+            "city": "Quebec",
+            "country": "Canada",
+            "postalCode": "G1E3W5"
+        },
+        "delivryAddress": {
+            "civicNumber": 2123,
+            "street": "Yves-Prevost",
+            "province": "Quebec",
+            "city": "Quebec",
+            "country": "Canada",
+            "postalCode": "G1E3W5"
+        },
+        "total": 1601.00,
+        "orderDetails": [
+            {
+                "product": "Camera",
+                "quantity": 1,
+                "price": 500.55
+            },
+            {
+                "product": "Celleluar",
+                "quantity": 1,
+                "price": 800.45
+            },
+            {
+                "product": "Speaker",
+                "quantity": 2,
+                "price": 150.00
+            }
+        ]
+    },
+    {
+        "id": 8967,
+        "date": "2021-09-26",
+        "facturationAddress": {
+            "civicNumber": 12123,
+            "street": "Lapierre",
+            "province": "Quebec",
+            "city": "Montreal",
+            "country": "Canada",
+            "postalCode": "T4R6T8"
+        },
+        "total": 1600.00,
+        "orderDetails": [
+            {
+                "product": "Computer",
+                "quantity": 1,
+                "price": 1000.00
+            }
+        ]
+    }
+]

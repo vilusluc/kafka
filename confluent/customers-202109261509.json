@@ -1,0 +1,70 @@
+[
+    {
+        "id": 109089,
+        "firstName": "Jean",
+        "lastName": "Lapierre",
+        "birthDate": "1978-09-08",
+        "phones": [
+            {
+                "home": "514-657-0909"
+            },
+            {
+                "cellular": "514-657-8989"
+            }
+        ],
+        "address": {
+            "civicNumber": 2346,
+            "appartment": "7A",
+            "street": "Dompierier",
+            "province": "Quebec",
+            "city": "Quebec",
+            "country": "Canada",
+            "postalCode": "G1E6Y7"
+        }
+    },
+    {
+        "id": 1090891,
+        "firstName": "Jean",
+        "lastName": "Luc",
+        "birthDate": "1978-09-08",
+        "phones": [
+            {
+                "home": "514-657-0909"
+            },
+            {
+                "cellular": "514-657-8989"
+            }
+        ],
+        "address": {
+            "civicNumber": 2346,
+            "appartment": "7A",
+            "street": "Dompierier",
+            "province": "Quebec",
+            "city": "Quebec",
+            "country": "Canada",
+            "postalCode": "G1E6Y7"
+        }
+    },
+    {
+        "id": 10908912,
+        "firstName": "Cassendra",
+        "lastName": "Desrosiers",
+        "birthDate": "1988-09-08",
+        "phones": [
+            {
+                "home": "418-657-0909"
+            },
+            {
+                "cellular": "418-657-8989"
+            }
+        ],
+        "address": {
+            "civicNumber": 2123,
+            "street": "Yves-Prevost",
+            "province": "Quebec",
+            "city": "Quebec",
+            "country": "Canada",
+            "postalCode": "G1E3W5"
+        }
+    }
+]

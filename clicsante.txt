@@ -1,0 +1,13 @@
+Pour les 2 CLSC suivants, prendre rendez-vous par téléphone : 
+
+Ste-Catherine-de-la-Jacques-Cartier : 418-337-4611 poste 2599
+Montmorency et l'île d'Orléans : 418-521-5833 ou 418-628-6808
+Vous ne pouvez pas utiliser clicsanté 
+
+et devez prendre rendez-vous par téléphone 418-521-5833 ou 418-628-6808 
+
+sudo aa-remove-unknown
+
+After that, I was able to stop and kill my containers. To kill all running Docker containers, you can use the following command:
+
+docker container kill $(docker ps -q)
